@@ -1,0 +1,79 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+main{
+   /* background-color: rgb(61,190,255); */
+    width: 100%;
+    /* max-width: 1440px; */
+    /* margin: 0 auto; */
+
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/desktop/image-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 20px; */
+    
+}
+.hero > header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+
+}
+.hero > .hero-text > img{
+    width: 30px;
+    height: 50px;
+    font-weight: 700;
+   
+}
+
+.hero > .hero-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 35vh;
+    margin-top: 140px;
+    font-size: larger;
+    text-align: center;
+    letter-spacing: 15px;
+    
+    
+}
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+header > nav > div > button{
+    border-radius: 50px;
+    color: hsl(210, 4%, 67%);
+    border: none;
+    padding: 12px 24px ;
+}
+
+    
